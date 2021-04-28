@@ -13,7 +13,7 @@ Okex_api_key = '24b047df-e66d-4286-8d9d-853dd297d49e'
 Okex_seceret_key = 'D970633D207B9FDEBAF9C8CEF59BFE4D'
 Okex_passphrase = 'arbitrage'
 
-is_proxies_Okex = True
+is_proxies_Okex = False
 
 # order settings
 Okex_instrument_id = 'BTC-USDT-SWAP'

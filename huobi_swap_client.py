@@ -21,8 +21,8 @@ class Huobi_Swap_Client():
         self.Secret_Key = Secret_Key
         self.is_proxies = is_proxies
         # self.BASE_URL = 'https://api.hbdm.com/' # for vpn
-        # self.BASE_URL = 'https://api.hbdm.vn/' # for aws
-        self.BASE_URL = 'https://api.btcgateway.pro/' # for test
+        self.BASE_URL = 'https://api.hbdm.vn/' # for aws
+        # self.BASE_URL = 'https://api.btcgateway.pro/' # for test
 
     def utc_now(self):
         return datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S')
